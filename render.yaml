@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: birthday-site
+    env: node
+    rootDir: birthday-site-v2-main
+    buildCommand: npm install && npm run build
+    startCommand: npm start
