@@ -22,7 +22,7 @@ Thank you for being the wonderful, amazing, absolutely fantastic person that you
 Happy Birthday, Mahira Kaleem, you beautiful soul! 🎂✨
 
 With all my love and warmest wishes,
-Abbu 😊 😞 🌸 💕`
+Abbu :) :( 🌸 💕`
 
     useEffect(() => {
         if (showText) {
