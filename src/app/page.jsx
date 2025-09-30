@@ -26,7 +26,7 @@ export default function BirthdayApp() {
 
   const screens = [
     !isBirthdayOver
-      ? <Countdown key="countdown" onComplete={() => setisBirthdayOver(true)} birthdayDate={birthdayDate} />
+      ? <Countdown birthdayDate={new Date("2025-09-30T19:47:00+03:00")} onComplete={handleComplete} />
       : <Celebration key="celebration" onNext={() => setCurrentScreen(1)} onMusicStart={() => setMusicStarted(true)} />,
     <HappyBirthday key="happy" onNext={() => setCurrentScreen(2)} />,
     <PhotoGallery key="gallery" onNext={() => setCurrentScreen(3)} />,
