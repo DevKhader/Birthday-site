@@ -4,8 +4,8 @@ import { useState, useEffect } from "react"
 import { motion } from "motion/react"
 import { Gift, Cake } from "lucide-react"
 
-export default function Countdown({ onComplete }) {
-    const birthdayDate = new Date("2025-09-30T19:35:00+03:00")
+export default function Countdown({ birthdayDate, onComplete }) {
+
     const [timeLeft, setTimeLeft] = useState({
         days: 0,
         hours: 0,
